@@ -14,6 +14,7 @@ const Portfolio = (props: portfolio) => {
         {props.projects.map((element, id) => {
           const gitbutton = <><a href={element.git} target="_blank" rel="noopener noreferrer" className='btn'><BsGithub/> Github Repo</a></>;
           const livebutton = <><a href={element.url} target="_blank" rel="noopener noreferrer" className='btn btn-primary'><AiOutlineLink/> Live Demo</a></>;
+          const azurebutton = <><a href={element.azure} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Azure</a></>
 
           return <div className='portfolio__item' key={id}>
             <h3>{element.title}</h3>
@@ -35,6 +36,7 @@ const Portfolio = (props: portfolio) => {
             <div className="portfolio__item-cta">
               {element.git === "" ? "" : gitbutton}
               {element.url === "" ? "" : livebutton}
+              {element.azure === "" ? "" : azurebutton}
             </div>
           </div>
 

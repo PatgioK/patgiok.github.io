@@ -60,7 +60,8 @@
         "image":"pathfind.png",
         "url":"https://patgiok.github.io/pathfindingvisualizer/",
         "tech": ["React", "Javascript"],
-        "git": "https://github.com/PatgioK/pathfindingvisualizer"
+        "git": "https://github.com/PatgioK/pathfindingvisualizer",
+        "azure": ""
       },
       {
         "title":"Reddit Clone",
@@ -68,7 +69,8 @@
         "image":"redditclone.png",
         "url":"",
         "tech": ["Ruby", "Ruby on Rails", "PostgreSQL", "Authentication", "Authorization"],
-        "git": "https://github.com/PatgioK/reddit-clone"
+        "git": "https://github.com/PatgioK/reddit-clone",
+        "azure": ""
       },
       {
         "title": "Car Ownership App Frontend",
@@ -76,7 +78,8 @@
         "image":"carpplfront.png",
         "url": "",
         "tech": ["Typescript", "React", "CRUD" ],
-        "git": "https://github.com/PatgioK/carpeoplefront2"
+        "git": "https://github.com/PatgioK/carpeoplefront2",
+        "azure": ""
       },
       {
         "title": "Car Ownership App Backend",
@@ -84,15 +87,17 @@
         "image":"carpplback.png",
         "url": "",
         "tech": ["Ruby on Rails", "React", "PostgreSQL"],
-        "git": "https://github.com/PatgioK/carpeopleback"
+        "git": "https://github.com/PatgioK/carpeopleback",
+        "azure": ""
       },
       {
         "title":"Sorting Visualizer",
         "category": "A react web app for visualizing sorting algorithms hosted on Azure",
         "image": "azuresort.png",
-        "url": "https://sortingvisualizer.azurewebsites.net/",
+        "url": "https://patgiok.github.io/SortingVisualizer/",
         "tech": ["React", "Javascript", "Azure"],
-        "git": "https://github.com/PatgioK/SortingVisualizer"
+        "git": "https://github.com/PatgioK/SortingVisualizer",
+        "azure": "https://sortingvisualizer.azurewebsites.net/"
       },
       {
         "title":"Handwritten Number Neural Net",
@@ -100,15 +105,17 @@
         "image": "neuralnet.png",
         "url": "",
         "tech": ["C#", "Neural Network", "Win-Form"],
-        "git": "https://github.com/PatgioK/NeuralNet"
+        "git": "https://github.com/PatgioK/NeuralNet",
+        "azure": ""
       },
       {
         "title":"Azure Portfolio",
         "category": "Basic site to familiarize myself with Azure",
         "image": "azureportfolio.png",
-        "url": "http://patgiok.azurewebsites.net/",
         "tech": ["Javascript", "Azure"],
-        "git": ""
+        "url": "http://patgiok.azurewebsites.net/",
+        "git": "",
+        "azure": "http://patgiok.azurewebsites.net/"
       },
       {
         "title":"Sound Wave Editor",
@@ -116,7 +123,8 @@
         "image": "waver.png",
         "url": "",
         "tech": ["C#", "Digital Processing", "Win-Form", "WAV"],
-        "git": "https://github.com/PatgioK/SoundWave-Editor"
+        "git": "https://github.com/PatgioK/SoundWave-Editor",
+        "azure": ""
       }
     ]
   }

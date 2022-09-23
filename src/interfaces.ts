@@ -11,7 +11,8 @@ export interface resumeData {
     image: string,
     url: string,
     tech: string[],
-    git: string
+    git: string,
+    azure: string
   }
   
   export interface portfolio {
