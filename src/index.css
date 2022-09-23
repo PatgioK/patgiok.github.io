@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Google fonts Roboto-Slab */
+
+/* Loading spinner */
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 1);
+  z-index: 4;
+  animation: loaderdiv 0.5s ease-out 0.6s 1 normal forwards;
+
+}
+
+@keyframes loaderdiv {
+  0% {
+    transform: translateY(0)
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.loader-container2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgb(0, 153, 255);
+  z-index: 3;
+  animation: loaderdiv 0.3s ease-out 1s 1 normal forwards;
+
+}
+
+
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 0.5s linear 1 normal forwards;
+}
+
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    /* display: none; */
+    opacity: 0;
+  }
+}
+
+
+/* ------------PORTFOLIO ---------- */
+/* Remove all default browser css
+*/
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* css variables
+*/
+:root {
+  --color-bg: #282c34;
+  --color-bg-variant: #292981;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgb(37, 119, 152, 0.4);
+  --color-white: #fff;
+  --color-light: rgb(146, 146, 146, 0.6);
+
+  --transition: all 380ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 89%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  /* background: #0c5725; */
+  color: var(--color-white);
+  line-height: 1.7;
+  /* background-image: url(../src/assets/bg-texture.png); */
+  background-image: url(../public/images/bg-texture.png);
+}
+
+/* GENERAL STYLES */
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 7rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--color-light);
+  font-size: 1.5rem;
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn-hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*  MEDIA QUERIES (MEDIUM DEVICES) EX: TABLETS */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+
+/*  MEDIA QUERIES (SMALL DEVICES) EX: PHONES */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

@@ -1,0 +1,123 @@
+{
+  "main": {
+    "name":"Patgio Kwok",
+    "occupation":"Fullstack Developer",
+    "description":"I'm a software developer with a focus on building intuitive and scalable digital experiences. Solving real problems with modern solutions.",
+    "image":"profilepic.jpg",
+    "bio":"I'm a self-motivated Software Developer based in Vancouver, BC. I enjoy learning new technologies and applying them to solve problems and optimize solutions that have real-world impact. I studied Digital Processing techniques in school, but have since pivoted into web development.",
+    "contactmessage":"",
+    "email": "patgiok@gmail.com",
+    "phone": "",
+    "address":{
+      "city":"Vancouver"
+    },
+    "website": "https://patgiok.github.io/portfolio-site",
+    "resumedownload":"patgiokResume.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://ca.linkedin.com/in/patgio-kwok-9b1879153",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/patgiok",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I am well experienced in Web Development and actively learning new developments for the latest web technologies, such as Prisma. I am always looking for new ways to broaden my development skills and put them to practice.",
+    "education":[
+      {
+        "school":"British Columbia Institute of Technology",
+        "degree":"Diploma of Computer Systems Technology (Digital Processing Option)",
+        "graduated":"Jan 2017 - Dec 2019",
+        "description": ["Graduated with Distinction", "A diploma program that combines computer systems theory with hands-on experience in software development", "Relevant Coursework: • Object Oriented Programming I & II • Data Structures and Algorithms  • Web App Development • Computer Architecture"]
+      }
+    ],
+    "work":[
+      {
+        "company":" test",
+        "title":"Software Engineer Intern",
+        "years":"May 2022 – Aug 2022",
+        "tech": ["React", "Redux", "Javascript", "Ruby on Rails", "postgreSQL"],
+        "description": ["Worked extensively with React & Redux to develop features for the front-end team",
+                        "Automated the workflow processes for all the front-end Git PRs",
+                        "Developed a feature flagging framework that is used for all the front-end projects",
+                        "Contributed to daily agile scrum meetings, code reviews, technical documentation, and sprint planning"]
+      }
+    ],
+    "skillsfront": ["React", "Redux", "Typescript", "Three.js"],
+    "skillsback": ["Ruby on Rails", "PostgreSQL", "Prisma", "Express", "Node.js"],
+    "skillsother": ["Java", "C++", "C#", "Win-Forms", "Azure"]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Pathfinding Visualizer",
+        "category":"A React web app for visualizing different pathfinding algorithms",
+        "image":"pathfind.png",
+        "url":"https://patgiok.github.io/pathfindingvisualizer/",
+        "tech": ["React", "Javascript"],
+        "git": "https://github.com/PatgioK/pathfindingvisualizer"
+      },
+      {
+        "title":"Reddit Clone",
+        "category":"Fullstack clone of Reddit built with Ruby on Rails. Has Login and Authorization, Trending and Voting Features",
+        "image":"redditclone.png",
+        "url":"",
+        "tech": ["Ruby", "Ruby on Rails", "PostgreSQL", "Authentication", "Authorization"],
+        "git": "https://github.com/PatgioK/reddit-clone"
+      },
+      {
+        "title": "Car Ownership App Frontend",
+        "category": "Frontend single page App made with React. All custom CRUD functions and dynamic display",
+        "image":"carpplfront.png",
+        "url": "",
+        "tech": ["Typescript", "React", "CRUD" ],
+        "git": "https://github.com/PatgioK/carpeoplefront2"
+      },
+      {
+        "title": "Car Ownership App Backend",
+        "category": "Rails API backend for a Car Ownership App",
+        "image":"carpplback.png",
+        "url": "",
+        "tech": ["Ruby on Rails", "React", "PostgreSQL"],
+        "git": "https://github.com/PatgioK/carpeopleback"
+      },
+      {
+        "title":"Sorting Visualizer",
+        "category": "A react web app for visualizing sorting algorithms hosted on Azure",
+        "image": "azuresort.png",
+        "url": "https://sortingvisualizer.azurewebsites.net/",
+        "tech": ["React", "Javascript", "Azure"],
+        "git": "https://github.com/PatgioK/SortingVisualizer"
+      },
+      {
+        "title":"Handwritten Number Neural Net",
+        "category": "A Win-Form app written in C#. Takes a hand drawn number as input and guesses the number",
+        "image": "neuralnet.png",
+        "url": "",
+        "tech": ["C#", "Neural Network", "Win-Form"],
+        "git": "https://github.com/PatgioK/NeuralNet"
+      },
+      {
+        "title":"Azure Portfolio",
+        "category": "Basic site to familiarize myself with Azure",
+        "image": "azureportfolio.png",
+        "url": "http://patgiok.azurewebsites.net/",
+        "tech": ["Javascript", "Azure"],
+        "git": ""
+      },
+      {
+        "title":"Sound Wave Editor",
+        "category": "A Win-Form app written in C#. Visualizes a sound wave and allows editing by passing through a filter",
+        "image": "waver.png",
+        "url": "",
+        "tech": ["C#", "Digital Processing", "Win-Form", "WAV"],
+        "git": "https://github.com/PatgioK/SoundWave-Editor"
+      }
+    ]
+  }
+}
