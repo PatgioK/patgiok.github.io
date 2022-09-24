@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.bab64ee1.css",
-    "main.js": "/static/js/main.e8910ebe.js",
+    "main.js": "/static/js/main.b5815632.js",
     "static/js/787.37faa4c4.chunk.js": "/static/js/787.37faa4c4.chunk.js",
     "static/media/PatgioKwokResume.pdf": "/static/media/PatgioKwokResume.e00b8c62738e8f9af286.pdf",
     "index.html": "/index.html",
     "main.bab64ee1.css.map": "/static/css/main.bab64ee1.css.map",
-    "main.e8910ebe.js.map": "/static/js/main.e8910ebe.js.map",
+    "main.b5815632.js.map": "/static/js/main.b5815632.js.map",
     "787.37faa4c4.chunk.js.map": "/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bab64ee1.css",
-    "static/js/main.e8910ebe.js"
+    "static/js/main.b5815632.js"
   ]
 }
